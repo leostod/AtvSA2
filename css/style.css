@@ -1,0 +1,502 @@
+/*fonte Google*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+/*topo*/
+.container-grid{
+	background-color: #101214;
+	display: flex;
+	justify-content: space-between;
+	width: auto;
+	height: 100%;
+	margin: auto;
+	align-items: center;
+}
+/*logo*/
+.logo a {
+	float: left;
+	display: flex;
+	width: auto;
+	height: 280px;
+}
+header {
+	background-color: #142026;
+	height: 195px;
+}
+/*login & social*/
+.login{
+	position: relative;
+	width: auto;
+	height: 40px;
+	text-align: right;
+	background-color: #0c0c0c;
+}
+.login a{
+	color: #ccc;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	right: 80px;
+	top: 8px;
+}
+.login a:hover{
+	color: rgb(255, 255, 255);
+}
+.login ul img{
+	height: 25px;
+	width: auto;
+	position: relative;
+	right: 170px;
+	bottom: 28px;
+	margin: 0px 10px 0px;
+}
+/*menu*/
+.container-fluid li:hover{
+	background-color: #d6d6d6;
+	transition: 1s;
+}
+.navbar{
+	padding: 1px!important;
+}
+/*carrossel*/
+.carousel-item  img {
+	height: 800px; 
+}
+.carousel-item-next, .carousel-item-prev{
+  margin: 0 auto;
+}
+/*pesquisa*/
+.d-flex{
+	width: 400px;
+}
+/*cards*/
+.row{
+	position: relative;
+	width: 100%;
+	justify-content: center;
+	background-color: #101214;
+}
+/*cards 1*/
+.col{
+	position: relative;
+	margin: 0px 10px 0px;
+	width: 100%;
+	padding: 70px;
+}
+/*cards 2*/
+.col2{
+	position: relative;
+	margin: 0px 10px 0px;
+	width: 100%;
+}
+/*valor*/
+.pp{
+	color: rgb(18, 221, 0);
+	margin: 0px 10px 0px;
+}
+/*eletrônicos*/
+.sub{
+	text-align: center;
+	text-transform: uppercase;
+	height: 70px;
+	background-image: url(../img/fundo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.sub h5 {
+	position: relative;
+	top: 16px;
+	font-size: 30px;
+	font-family: Inter;
+}
+.l{
+	height: 70px;
+	background-color: #101214;
+}
+/*newsletter*/
+.nett {
+	height: 230px;
+	width: 100%;
+	background-color: #b9b9b9;
+}
+.nett img{
+	position: relative;
+	float: left;
+	height: 90px;
+	top: 70px;
+	margin: 0px 40px 0px;
+}
+.nett p{
+	position: relative;
+	color: #ef9f19;
+	font-size: 40px;
+	top: 85px;
+}
+.nett button{
+	position: relative;
+	float: right;
+	right: 40px;
+	top: 10px;
+	width: 150px;
+	height: 50px;
+}
+/*rodapé*/
+.rodape{
+	background-color: #101214;
+	min-height: 300px;
+	width: 100%;
+	max-height: 100%;
+}
+.help{
+	position: relative;
+	left: 30px;
+	top: 40px;
+	float: left;
+}
+.help a{
+	text-decoration: none; 
+	color: #ffffff;
+	font-size: 25px;
+	font-family: inter;
+}
+.help a:hover{
+	color: #969696;
+}
+li{
+	list-style-type: none;
+}
+.contato ul {
+	float: right;
+	position: relative;
+	right: 40px;
+	top: 40px;
+	text-decoration: none; 
+	color: #ffffff;
+	font-size: 20px;
+	font-family: inter;
+}
+/*logo final*/
+.logob{
+	display: flex;
+	justify-content: center;
+}
+/*botão de subir*/
+.botaohome {
+	display: block;
+}	
+#myBtn {
+	  display: none;
+	  position: fixed;
+	  bottom: 20px;
+	  right: 30px;
+	  z-index: 9999;
+	  border: none;
+	  outline: none;
+	  background-color: #ffc107;
+	  color: white;
+	  cursor: pointer;
+	  padding: 15px;
+	  border-radius: 10px;
+}
+#myBtn:hover {
+	  background-color: #fdd047;
+}
+#myBtn img{
+		height: 40px;
+}
+/*página de erro*/
+html{
+	background-color: #101214;
+}
+#container{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	right: 10%;
+	bottom: 10%;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	background: url(../img/fundo404.png);
+	box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+#container .content{
+	max-width: 600px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#container .content h2{
+	font-size: 18vw;
+	color: #fff;
+	line-height: 1em;
+}
+#container .content h4{
+	position: relative;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+	color: rgb(0, 0, 0);
+	background: rgb(255, 255, 255);
+	font-weight: 300;
+	padding: 10px 20px;
+	display: inline-block;
+
+}
+#container .content p{
+	color: rgb(0, 0, 0);
+	font-size: 1.3em;
+	background-color: rgb(255, 255, 255);
+	padding: 10px 20px;
+}
+#container .content a{
+	position: relative;
+	display: inline-block;
+	padding: 10px 25px;
+	background: #ffc107;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	margin-top: 25px;
+	border-radius: 25px;
+	border-bottom: 4px solid #000000;
+}
+/*login*/
+:root {
+	--main-color: #407bff;
+	--link-color: #666666;
+	--text1: #999999;
+	--highligth-text: #333333;
+	--input-text: #555555;
+	--white-color: #FFFFFF;
+	--point-list: #CCCCCC;
+	--line-input: #D9D9D9;
+  }
+ul, li {
+	  margin: 0px;
+	  list-style-type: none;
+}
+input, button {
+	  outline: none !important;
+	  border: none;
+}
+button:hover {
+	  cursor: pointer;
+}
+.text1 {
+	font-family: Poppins-Regular;
+	font-size: 15px;
+	color: var(--text1);
+	line-height: 1.5;
+}
+.text2 {
+	font-family: Poppins-Regular;
+	font-size: 15px;
+	color: var(--main-color);
+	line-height: 1.5;
+}
+.margin-bottom-35 {
+	margin-bottom: 35px;
+}
+.margin-top-35 {
+	margin-top: 35px;
+}
+.margin-bottom-8 {
+	margin-bottom: 8px;
+}
+.margin-top-8 {
+	margin-top: 8px;
+}
+.margin-left-50 {
+	margin-left: 50px;
+}
+.container2 {
+	width: 100%;
+	margin: 0 auto;
+}
+.container-login {
+	width: 100%;  
+	min-height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	background: var(--white-color);  
+}
+.wrap-login {
+	width: 370px;
+	margin-right: 50px;
+	background: var(--white-color);
+}
+.login-form {
+	width: 100%;
+}
+.login-form-title {
+	display: block;
+	font-family: Poppins-Bold;
+	font-size: 39px;
+	color: var(--highligth-text);
+	line-height: 1.2;
+	text-align: center;
+}
+.wrap-input {
+	width: 100%;
+	position: relative;
+	border-bottom: 2px solid var(--line-input);
+}
+.input-form {
+	font-family: Poppins-SemiBold;
+	font-size: 18px;
+	color: var(--input-text);
+	line-height: 1.2;
+	display: block;
+	width: 100%;
+	height: 52px;
+	background: transparent;
+	padding: 0 5px;
+}
+.focus-input-form {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+}
+.focus-input-form::before {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	width: 0;
+	height: 2px;
+	transition: all 0.4s;
+	background: var(--main-color);
+}
+.focus-input-form::after {
+	font-family: Poppins-Medium;
+	font-size: 18px;
+	color: var(--text1);
+	line-height: 1.2;
+	content: attr(data-placeholder);
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 15px;
+	left: 0px;
+	padding-left: 5px;
+	transition: all 0.4s;
+}
+.input-form:focus + .focus-input-form::after {
+	top: -20px;
+	font-size: 15px;
+}
+.input-form:focus + .focus-input-form::before {
+	width: 100%;
+}
+.has-val.input-form + .focus-input-form::after {
+	top: -20px;
+	font-size: 15px;
+}
+.has-val.input-form + .focus-input-form::before {
+	width: 100%;
+}
+.container-login-form-btn {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.login-form-btn {
+	font-family: Poppins-Medium;
+	font-size: 16px;
+	color: var(--white-color);
+	line-height: 1.2;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+	width: 100%;
+	height: 50px;
+	background-color: var(--main-color);
+	border-radius: 5px;
+	transition: all 0.4s;
+}
+.login-form-btn:hover  {
+	background-color: var(--highligth-text);
+}
+/*notícias*/
+.card-body{
+	margin: 0px 20px 10px;
+}
+.imgcc{
+	
+	width: 300px;
+	float: left;
+	padding: 7px;
+}
+.card-body h5{
+	position: relative;
+	top: 10px;
+}
+.card-body a{
+	position: relative;
+	float: right;
+	bottom: 10px;
+	text-decoration: none;
+	font-family: inter;
+}
+.card-body p{
+	position: relative;
+	top: 10px;
+}
+/*menu páginas*/
+.pagination{
+	margin: 20px 10px 20px;
+}
+
+
+@media screen and (max-width: 1200px){
+	.container-grid{
+		width: 100%;
+	}
+	.container-grid .logo{
+		width: 100%;
+	}
+	.imgcc{
+		width: 100%;
+	}
+	.login a img{
+		height: 30px;
+	}
+	.nett img{
+		width: 10%;
+		height: 10%;
+	}
+	.nett .btn{
+		width: 25%;
+	}
+	.nett{
+		width: 100%;
+	}
+	.nett p{
+		width: 100%;
+	}
+	.rodape .rodape-linha1{
+		width: 100%;
+	}
+	.rodape .contato{
+		width: 100%;
+	}
+	.rodape .logob{
+		width: 100%;
+	}
+}
